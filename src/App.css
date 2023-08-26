@@ -1,38 +1,145 @@
-.App {
-  text-align: center;
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(0, 12, 13);
+  font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-black {
+  background-color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+  font-size: 30px;
+  background-color: rgb(5, 30, 43);
+  ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-inner {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.margin-y-5 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.margin-y-2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.margin-x-2 {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.padding-2 {
+  padding: 10px;
+}
+
+.rounded {
+  border-radius: 11px;
+}
+
+.btn {
+  font-size: 54px;
+  width: auto;
+  border: none;
+  padding: 0px 24.5px;
+  border-radius: 16px;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.btn-dark {
+  background-color: rgb(49, 45, 45);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-secondary {
+  background-color: rgb(110, 99, 99);
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.btn-warning {
+  background-color: rgb(231, 116, 9);
+  color: white;
+}
+
+.container1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+
+.btn0 {
+  padding: 0px 79px;
+}
+
+.btnC {
+  padding: 0px 13px;
+}
+
+.btnS {
+  padding: 0px 20px;
+}
+
+.text {
+  font-size: 30px;
+  width: auto;
+  background-color: black;
+  color: white;
+  border: 2px solid grey;
+  padding: 24px 6px;
+}
+
+.shadow {
+  box-shadow: 0 1rem 3rem rgba(128, 128, 128, 0.15);
+}
+
+@media (max-width: 480px) {
+  .btn {
+    font-size: 20px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .text {
+    font-size: 22px;
+    padding: 10px 10px;
+  }
+
+  .rounded {
+    border-radius: 10px;
+  }
+
+  section {
+    margin-top: 100px;
+  }
+
+  .btn0 {
+    padding: 0px 67px;
+  }
+
+  .btnC {
+    padding: 0px 22px;
   }
 }
