@@ -49,15 +49,15 @@ a:hover {
 }
 
 .rounded {
-  border-radius: 11px;
+  border-radius: 5px;
 }
 
 .btn {
   font-size: 54px;
   width: auto;
   border: none;
-  padding: 0px 24.5px;
-  border-radius: 16px;
+  /* padding: 0px 24.5px; */
+  /* border-radius: 16px; */
 }
 
 .btn:hover {
@@ -80,39 +80,32 @@ a:hover {
 }
 
 .container1 {
-  align-items: center;
+  /* align-items: center; */
+  margin: auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding-bottom: 4px;
 }
-
 .container {
   display: flex;
-  flex-direction: row;
-  background-color: black;
 }
-
+.col {
+  flex: 1 0 0%;
+}
 .btn0 {
-  padding: 0px 79px;
-}
-
-.btnC {
-  padding: 0px 13px;
-}
-
-.btnS {
-  padding: 0px 20px;
+  padding: 0px 63px;
 }
 
 .text {
-  font-size: 30px;
+  font-size: 36px;
   width: auto;
   background-color: black;
   color: white;
   border: 2px solid grey;
   padding: 24px 6px;
+  margin: 12px 10px;
 }
-
 .shadow {
   box-shadow: 0 1rem 3rem rgba(128, 128, 128, 0.15);
 }
@@ -127,19 +120,12 @@ a:hover {
     padding: 10px 10px;
   }
 
-  .rounded {
-    border-radius: 10px;
-  }
-
-  section {
-    margin-top: 100px;
-  }
-
   .btn0 {
-    padding: 0px 67px;
+    padding: 0px 45px;
   }
 
-  .btnC {
-    padding: 0px 22px;
+  .margin-x-2 {
+    margin-right: 4px;
+    margin-left: 4px;
   }
 }

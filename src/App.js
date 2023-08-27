@@ -5,8 +5,10 @@ import Nav from './components/Nav';
 function App() {
   return (
     <div>
-      <Nav/>
-      <Calculator/>
+      <Nav />
+      <div className="margin-y-5">
+        <Calculator />
+      </div>
     </div>
   );
 }
